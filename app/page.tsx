@@ -4,46 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#F5F7FB]">
-      {/* NAVBAR */}
-      <nav className="flex items-center justify-between px-8 py-5 bg-white border-b border-gray-200 sticky top-0 z-50">
-        <div className="flex items-center gap-3">
-          <Image
-            src="/IMAGES/eym-logo1.png"
-            alt="EYM Philippines"
-            width={60}
-            height={60}
-          />
-
-          <div>
-            <h1 className="text-2xl font-bold text-[#123C73] leading-tight">
-              eym
-            </h1>
-
-            <p className="text-xs text-gray-500 uppercase tracking-wide">
-              Eucharistic Youth Movement Philippines
-            </p>
-          </div>
-        </div>
-
-        <div className="hidden md:flex items-center gap-8 text-gray-700 font-medium">
-          <Link href="/">Home</Link>
-          <Link href="/about">About EYM</Link>
-          <Link href="/formation">Formation</Link>
-          <Link href="/events">Events</Link>
-          <Link href="/resources">Resources</Link>
-          <Link href="/community">Community</Link>
-        </div>
-
-        <div className="flex items-center gap-4">
-          <button className="px-5 py-2 rounded-xl border border-[#123C73] text-[#123C73] font-semibold hover:bg-[#123C73] hover:text-white transition">
-            Login
-          </button>
-
-          <button className="px-5 py-2 rounded-xl bg-[#D4A017] text-white font-semibold shadow hover:opacity-90 transition">
-            Join EYM
-          </button>
-        </div>
-      </nav>
+ 
 
       {/* HERO SECTION */}
       <section className="relative overflow-hidden">

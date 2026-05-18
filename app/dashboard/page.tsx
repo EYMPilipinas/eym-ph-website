@@ -1,6 +1,6 @@
 export default function DashboardPage() {
   return (
-    <main className="min-h-screen bg-[#F5F7FB] px-8 py-20">
+    <main className="min-h-screen bg-[#F5F7FB] px-8 py-20">npm run dev
       <div className="max-w-6xl mx-auto">
         <p className="uppercase tracking-[0.3em] text-sm text-[#D4A017] font-semibold">
           Members Dashboard

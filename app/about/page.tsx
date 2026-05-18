@@ -15,7 +15,7 @@ export default function AboutPage() {
         </h1>
 
         <p className="mt-8 text-xl text-gray-700 leading-relaxed">
-          The Eucharistic Youth Movement (EYM) is the youth arm of the
+          The Eucharistic Youth Movement (EYM) is the youth initiative of the
           Pope’s Worldwide Prayer Network, helping young people develop a
           personal friendship with Jesus through God’s Word, the Eucharist,
           and Mission.

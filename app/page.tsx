@@ -10,13 +10,13 @@ export default function Home() {
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-[#123C73] via-[#1E4D8C] to-[#123C73]" />
 
-        <div className="relative px-8 py-28 text-center text-white">
+        <div className="relative px-5 sm:px-8 py-20 md:py-28 text-center text-white">
           <div className="max-w-5xl mx-auto">
             <p className="uppercase tracking-[0.3em] text-sm text-blue-100 mb-5">
               Eucharistic Youth Movement Philippines
             </p>
 
-            <h2 className="text-6xl md:text-7xl font-black leading-tight">
+            <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black leading-tight">
               Young apostles.
               <br />
               In love with Jesus.
@@ -30,12 +30,12 @@ export default function Home() {
               the world.
             </p>
 
-            <div className="mt-10 flex flex-wrap justify-center gap-5">
-              <button className="px-8 py-4 rounded-2xl bg-[#D4A017] text-white font-bold text-lg shadow-xl hover:scale-105 transition">
+            <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
+              <button className="px-6 md:px-8 py-3 md:py-4 rounded-2xl bg-[#D4A017] text-white font-bold text-lg shadow-xl hover:scale-105 transition">
                 Join EYM
               </button>
 
-              <button className="px-8 py-4 rounded-2xl border border-white/40 backdrop-blur bg-white/10 text-white font-bold text-lg hover:bg-white hover:text-[#123C73] transition">
+              <button className="px-6 md:px-8 py-3 md:py-4 rounded-2xl border border-white/40 backdrop-blur bg-white/10 text-white font-bold text-lg hover:bg-white hover:text-[#123C73] transition">
                 Learn More
               </button>
             </div>
@@ -45,8 +45,8 @@ export default function Home() {
 
       {/* FEATURE SECTION */}
       <section className="px-8 py-20">
-        <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-8">
-          <div className="bg-white rounded-3xl p-8 shadow-lg border border-gray-100 hover:-translate-y-1 transition">
+        <div className="max-w-7xl mx-auto grid gap-8 md:grid-cols-3">
+          <div className="bg-white rounded-3xl p-6 md:p-8 shadow-lg border border-gray-100 hover:-translate-y-1 transition-all duration-300">
             <div className="w-14 h-14 rounded-2xl bg-blue-100 flex items-center justify-center text-3xl">
               📖
             </div>
@@ -61,7 +61,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="bg-white rounded-3xl p-8 shadow-lg border border-gray-100 hover:-translate-y-1 transition">
+          <div className="bg-white rounded-3xl p-6 md:p-8 shadow-lg border border-gray-100 hover:-translate-y-1 transition-all duration-300">
             <div className="w-14 h-14 rounded-2xl bg-yellow-100 flex items-center justify-center text-3xl">
               🗓️
             </div>
@@ -76,7 +76,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="bg-white rounded-3xl p-8 shadow-lg border border-gray-100 hover:-translate-y-1 transition">
+          <div className="bg-white rounded-3xl p-6 md:p-8 shadow-lg border border-gray-100 hover:-translate-y-1 transition-all duration-300">
             <div className="w-14 h-14 rounded-2xl bg-red-100 flex items-center justify-center text-3xl">
               🙏
             </div>
@@ -95,14 +95,14 @@ export default function Home() {
 
       {/* HOLY FATHER SECTION */}
       <section className="px-8 pb-24">
-        <div className="max-w-7xl mx-auto bg-white rounded-[2rem] p-10 shadow-xl border border-gray-100">
+        <div className="bg-white rounded-3xl p-6 md:p-8 shadow-lg border border-gray-100 hover:-translate-y-1 transition-all duration-300">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="uppercase text-sm tracking-[0.3em] text-[#D4A017] font-semibold">
                 Pray with the Church
               </p>
 
-              <h2 className="mt-4 text-5xl font-black text-[#123C73] leading-tight">
+              <h2 className="mt-4 text-4xl md:text-5xl font-black text-[#123C73] leading-tight">
                 Monthly Intention
                 <br />
                 of the Holy Father
@@ -112,7 +112,7 @@ export default function Home() {
                 MAY 2027
               </div>
 
-              <p className="mt-6 text-gray-700 text-lg leading-relaxed">
+              <p className="mt-6 text-gray-700 text-base md:text-lg leading-relaxed">
                 “That there be job opportunities for everyone. Let us pray that
                 technological development might open dignified work
                 opportunities, and that intergenerational collaboration might
@@ -124,14 +124,14 @@ export default function Home() {
                 — Pope Leo XIV
               </p>
 
-              <button className="mt-8 px-7 py-4 rounded-2xl bg-[#123C73] text-white font-bold shadow-lg hover:scale-105 transition">
+              <button className="mt-8 px-7 py-4 rounded-2xl bg-[#123C73] text-white font-bold shadow-lg hover:scale-105 transition-all duration-300">
                 Pray This Intention
               </button>
             </div>
 
             <div className="bg-gradient-to-br from-blue-50 to-yellow-50 rounded-[2rem] p-10">
-              <div className="grid grid-cols-2 gap-5">
-                <div className="bg-white rounded-2xl p-6 shadow">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="bg-white rounded-2xl p-6 shadow hover:-translate-y-1 transition-all duration-300">
                   <div className="text-4xl">🕊️</div>
 
                   <h3 className="mt-4 font-bold text-[#123C73] text-lg">
@@ -143,7 +143,7 @@ export default function Home() {
                   </p>
                 </div>
 
-                <div className="bg-white rounded-2xl p-6 shadow">
+                <div className="bg-white rounded-2xl p-6 shadow hover:-translate-y-1 transition-all duration-300">
                   <div className="text-4xl">🙏</div>
 
                   <h3 className="mt-4 font-bold text-[#123C73] text-lg">
@@ -155,7 +155,7 @@ export default function Home() {
                   </p>
                 </div>
 
-                <div className="bg-white rounded-2xl p-6 shadow">
+                <div className="bg-white rounded-2xl p-6 shadow hover:-translate-y-1 transition-all duration-300">
                   <div className="text-4xl">📖</div>
 
                   <h3 className="mt-4 font-bold text-[#123C73] text-lg">
@@ -167,7 +167,7 @@ export default function Home() {
                   </p>
                 </div>
 
-                <div className="bg-white rounded-2xl p-6 shadow">
+                <div className="bg-white rounded-2xl p-6 shadow hover:-translate-y-1 transition-all duration-300">
                   <div className="text-4xl">❤️</div>
 
                   <h3 className="mt-4 font-bold text-[#123C73] text-lg">
